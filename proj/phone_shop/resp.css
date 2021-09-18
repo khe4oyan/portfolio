@@ -1,0 +1,104 @@
+/*-----------------------*/
+/*		by Khechoyan     */
+/*-----------------------*/
+:root{
+    --max-whidth: 100%;
+}
+
+.btn{
+    padding: .2rem .8rem;
+}
+/* GENERAL (end) */
+/* =============================================== */
+header .container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+header .container .box1{
+    padding: .1rem 0rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .container .box1 img{
+    display: none;
+}
+header .container .box1 h1{
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+}
+header .container ul li a{
+    padding: .2rem;
+}
+header .container ul li a:hover{
+    box-shadow: inset 0px -2px 0px #5091EB;
+}
+
+
+#blur{
+    background: url('img/blur.png') no-repeat center center / cover;
+}
+#blur .container{
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+#blur .container .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blur .container .box1 img{
+    display: none;
+}
+#blur .container .box2{
+    padding: 2rem;
+}
+#blur .container .box2 div h1{
+    font-size: 1.5rem;
+}
+#blur .container .box2 div p{
+    font-size: 1.2rem;
+    margin: .1rem 0rem 1rem;
+}
+#blur .container .box2 div a{
+    margin-left: .2rem;
+}
+#blur .container .box2 div a img{
+    margin-right: .4rem;
+}
+
+#products .container{
+    display: block;
+}
+#products .container .box{
+    border-bottom: 3px solid #F4F4F4;
+}
+#products .container .box .img{
+    width: 8rem;
+    height: 8rem;
+}
+#cart{
+    margin-top: 2rem;
+}
+#cart .container{
+    grid-template-columns: repeat(1, 1fr);
+}
+#cart .container .box1 h1{
+    font-size: 1.7rem;
+}
+#cart .container .box2 div{
+    text-align: center;
+}
+#cart .container .box2 div h3{
+    font-size: 1.6rem;
+}
+#cart .container .box2 div p{
+    line-height: 2rem;
+}
+footer{
+    border-top: 3px solid #F4F4F4;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}

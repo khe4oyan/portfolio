@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: url('https://www-cdn.eumetsat.int/files/styles/16_9_large/s3/2020-06/ASpot_Weather.jpg?h=d1cb525d&itok=lvYWh_W8') center center / cover;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content: center;
+}
+header *{
+    margin: 5px;
+    outline: none;
+    text-align: center;
+    background-color: rgba(0,0,0,0);    
+    padding: 10px;
+    color: white;
+    border: 3px solid rgb(17, 202, 17);
+    border-radius: 10px;
+}
+main{
+    width: 100%;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: repeat(6,20%);
+    grid-gap: 10px;
+}
+main .block{
+    font-family: monospace, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    min-width: 13rem;
+    text-align: center;
+    border: 5px solid #6063ad;
+    border-radius: 10px;
+}
+
+main .block h1{
+    margin-top: 20px;
+}
+main .block p{
+    font-size: 20px;
+}
+main .block hr{
+    width: 70%;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #626596;
+    height: 2px;
+}
+.none{
+    width: 30%;
+    margin: auto/auto;
+    margin: 25px;
+}
+@media(max-width: 768px){
+    header{
+        padding: 1rem;
+    }
+    header *{
+        width: 50%;
+        font-size: 1rem;
+        margin: 5px;
+        padding: 10px;
+        border: 3px solid #626596;
+        border-radius: 10px;
+    }
+    main{
+        margin: initial;
+        padding: 20px;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 10px;
+    }
+    main .block{
+        background-color: rgba(0,0,0,.4);
+        min-width: initial;
+    }
+    main .block h1{
+        margin-top: 15px;
+        font-size: 2rem;
+    }
+    main .block p{
+        font-size: 2rem;
+    }
+    main .block hr{
+        width: 75%;
+        margin:auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        border: none;
+        background-color: rgb(121, 121, 121);
+        height: 2px;
+    }
+    main .block img{
+        width: 60%;
+    }
+}

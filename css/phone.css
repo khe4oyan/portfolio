@@ -1,0 +1,24 @@
+.container, header{
+    max-width: 90%;
+}
+header .container{
+    padding: .5rem 0;
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+}
+header .container img{
+    width: 7%;
+}
+#cards{
+    padding: 1rem 0rem;
+}
+#cards .container{
+    grid-template-columns: repeat(1, 1fr);
+}
+#cards .container .card{
+    margin:auto;
+}
+footer .container2 .theme{
+    width: 4rem;
+    height: 4rem;
+}

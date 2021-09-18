@@ -1,0 +1,110 @@
+header .container{
+    color: #e2e2e2;
+    padding: 1rem 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+header .container img{
+    width: 6%;
+    margin: auto;
+}
+header .container ul{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style: none;
+}
+header .container ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+header .container ul li:hover{
+    background-color: rgba(0,0,0,.1);
+}
+#cards{
+    padding: 2rem 0rem;
+}
+#cards .container{
+    display: grid;
+    grid-gap: .8rem;
+    grid-template-columns: repeat(4, 1fr);
+}
+#cards .container .card{
+    position: relative;
+    padding: 1rem;
+    max-width: 14rem;
+    min-height: 14.5rem;
+    max-height: 15rem;
+    display: grid;
+    grid-template-rows: 1fr, 1fr, 1fr;
+}
+#cards .container .card img{
+    width: 100%;
+}
+#cards .container .card h2{
+    width: 100%;
+    background-color: var(--h2-bg-color);
+    display: flex;
+    color: var(--h2-color);
+    align-items: center;
+    justify-content: center;
+}
+#cards .container .card a{
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    color: whitesmoke;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+footer .container2{
+    padding: 1rem;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255,255,255,.1);
+}
+footer .container2 .theme{
+    border-radius: 50%;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 2rem;
+    cursor: pointer;
+}
+footer .container2 .theme:last-child{
+    margin-right: 0rem;
+}
+footer .container2 #default{
+    background: radial-gradient(circle at 50% 3%, #546168 10%,  #14191E 70%);
+    
+}
+footer .container2 #girls{
+    background: radial-gradient(circle at 50% 3%, #fa8686 10%,  #993d3d 70%);
+}
+footer .container2 #blackwhite{
+    background: radial-gradient(circle at 50% 3%, #444444 10%,  #000000 70%);
+    
+}
+footer .container2 #none{
+    background: radial-gradient(circle at 50% 3%, #ffffff 46%, black 47%, black 55%,  white 56%);
+}
+@media (max-width: 1080px){
+    .container{
+        max-width: 90%;
+        margin: auto;
+    }
+    #cards .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

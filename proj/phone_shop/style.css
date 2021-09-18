@@ -1,0 +1,207 @@
+/*-----------------------*/
+/*		by Khechoyan     */
+/*-----------------------*/
+:root{
+    --max-whidth: 65rem;
+}
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100%;
+}
+.container{
+    width: var(--max-whidth);
+    margin:auto;
+}
+a{
+    text-decoration: none;
+}
+.btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: .2rem .8rem;
+}
+/* GENERAL (end) */
+/* =============================================== */
+
+header{
+    color: grey;
+}
+header .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+header .container .box1{
+    padding: 1rem 0rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+header .container .box1 img{
+    background-color: #5094F2;
+    padding: .7rem;
+    height: 100%;
+    border-radius: 50%;
+}
+header .container .box1 h1{
+    padding-left: .5rem;
+    font-size: 2rem;
+}
+header .container ul{
+    width: 90%;
+    margin:auto auto;
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    height: 100%;
+    align-items: flex-end;
+}
+header .container ul li{
+    flex: 1;
+    display: inline-block;
+    list-style: none;
+}
+header .container ul li a{
+    color: gray;
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    display: inline-block;
+}
+header .container ul li a:hover{
+    box-shadow: inset 0px -5px 0px #5091EB;
+}
+
+#blur{
+    background: url('img/blur.png') no-repeat center center / cover;
+}
+#blur .container{
+    padding: 2rem 0rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#blur .container .box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#blur .container .box2{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+#blur .container .box2 div h1{
+    font-size: 2rem;
+}
+#blur .container .box2 div p{
+    font-size: 1.3rem;
+    width: 55%;
+    margin: .3rem 0rem 1.5rem;
+}
+#blur .container .box2 div a{
+    background-color: #5094F2;
+    margin-left: 1rem;
+    display: flex;
+    align-items: center;
+    width: 10rem;
+}
+#blur .container .box2 div a img{
+    margin-right: .5rem;
+    width: 15%;
+}
+#products{
+    padding-top: 2rem;
+    width: 100%;
+}
+#products .container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+#products .container .box{
+    display: flex;
+    flex-flow: column;
+    padding: 1rem;
+    align-items: center;
+}
+#products .container .box .img{
+    padding: 40px;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+#products .container .box .img img{
+    height: 100%;
+}
+#products .container .box h5{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #5094F2;
+    margin: 1rem 0rem .2rem
+    
+}
+#products .container .box p{
+    text-align: center;
+    color: grey;
+    width: 80%;
+    font-size: .9rem;
+}
+#products .container .box1 .img{
+    background-color: #5094F2;
+}
+#products .container .box2 .img{
+    background-color: #D94748;
+}
+#products .container .box3 .img{
+    background-color: #EBBB11;
+}
+
+#cart{
+    margin-top: 5rem;
+    color: gray;
+}
+#cart .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+#cart .container .box1{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+#cart .container .box1 h1{
+    font-weight: lighter;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+}
+#cart .container .box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cart .container .box2 div h3{
+    font-weight: lighter;
+    font-size: 1.5rem;
+    margin-bottom: 1.7rem;
+}
+#cart .container .box2 div p{
+    line-height: 2.5rem;
+}
+footer{
+    border-top: 4px solid #F4F4F4;
+    color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin-top: 4rem;
+}
