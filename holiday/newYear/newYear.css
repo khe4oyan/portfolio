@@ -1,0 +1,38 @@
+*{
+    font-family: monospace;
+}
+body{
+    background: radial-gradient(circle at 50% 3%, rgb(202, 35, 35) 10%,  rgb(51, 10, 10) 70%) fixed;
+}
+.unpress{
+    box-shadow: inset 0px 3px 5px white,
+                    0px 5px 5px black;
+}
+header .container img{
+    width: 9%;
+    margin: auto;
+}
+.card{
+    background-color: rgb(180, 180, 180);
+}
+#cards .container .card h2{
+    background-color: rgb(51, 10, 10);
+}
+.card a i{
+    color: rgb(44, 44, 44);
+}
+/* Scrollbar */
+::-webkit-scrollbar {
+    background-color: rgb(51, 10, 10);
+    width: 20px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    border: 3px solid rgb(206, 206, 206);
+    background-color: rgb(51, 10, 10);
+    border-radius: 10px;
+}
