@@ -3,6 +3,7 @@
 }
 body{
     background: radial-gradient(circle at 50% 3%, rgb(202, 35, 35) 10%,  rgb(51, 10, 10) 70%) fixed;
+    margin-bottom: 50px;
 }
 .unpress{
     box-shadow: inset 0px 3px 5px white,
