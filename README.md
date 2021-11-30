@@ -1,1 +1,1 @@
-# Link: https://khe4oyans.github.io/portfolio/
+https://khe4oyans.github.io/portfolio/
