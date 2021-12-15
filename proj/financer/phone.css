@@ -1,6 +1,7 @@
 /*-----------------------*/
 /*			by Khechoyan    */
 /*-----------------------*/
+
 header #navbar{
 	display: block;
 }
@@ -29,6 +30,7 @@ header .content a{
 }
 #about{
 	display: block;
+	padding-top: 100px;
 }
 #about .box{
 	margin: auto;
@@ -75,4 +77,8 @@ header .content a{
 }
 .form form{
 	text-align: center;
+}
+
+body > *{
+	padding-top: 100px;
 }

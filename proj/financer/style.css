@@ -162,9 +162,10 @@ footer{
 footer .icon{
 	margin: auto;
 	width: 30%;
-	display: flex;
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
 	justify-content: space-around;
-	align-items: center;
+	grid-gap: .5rem;
 
 }
 footer .icon img{
