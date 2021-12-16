@@ -15,6 +15,12 @@ function holiday() {
       document.head.appendChild(link);
       let logo = document.querySelector('header img');
       logo.src = 'holiday/newYear/logo.png';
+      const canv = document.createElement('canvas');
+      document.body.appendChild(canv);
+      let js = document.createElement('script');
+      js.type = 'text/javascript';
+      js.src = 'holiday/newYear/newYear.js';
+      document.body.appendChild(js);
       break;
     }
   }
