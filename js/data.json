@@ -4,27 +4,32 @@
     {
       "name": "4 Player Game",
       "img": "projIcon/cat.png",
-      "link": "proj/fplGame/index.html"
+      "link": "https://khe4oyans.github.io/port_fplGame/",
+      "git": "https://github.com/khe4oyans/port_fplGame"
     },
     {
       "name": "Creatives",
       "img": "projIcon/cre.png",
-      "link": "proj/creative/index.html"
+      "link": "https://khe4oyans.github.io/port_creative/",
+      "git": "https://github.com/khe4oyans/port_creative"
     },
     {
       "name": "NewsGrid",
       "img": "projIcon/gree.png",
-      "link": "proj/newsgrid/index.html"
+      "link": "https://khe4oyans.github.io/port_newsgrid/",
+      "git": "https://github.com/khe4oyans/port_newsgrid"
     },
     {
       "name": "Fin Ancer",
       "img": "projIcon/fin.png",
-      "link": "proj/financer/index.html"
+      "link": "https://khe4oyans.github.io/port_financer/",
+      "git": "https://github.com/khe4oyans/port_financer"
     },
     {
       "name": "Hotel",
       "img": "projIcon/hot.png",
-      "link": "proj/hotel/index.html"
+      "link": "https://khe4oyans.github.io/port_hotel/",
+      "git": "https://github.com/khe4oyans/port_hotel"
     }
   ]
 }
