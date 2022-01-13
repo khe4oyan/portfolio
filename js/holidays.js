@@ -7,8 +7,9 @@ function holiday() {
 
   switch (true) {
     // New Year set
-    case month == 12 && day >= 20 || month == 1 && day <= 20 : {
+    case month == 12 && day >= 28 || month == 1 && day <= 13 : {
       console.log('Load Ney Year theme');
+      console.log('Dec 28 -> Jan 1');
       let link = document.createElement('link');
       link.rel = 'stylesheet';
       link.href = 'holiday/newYear/newYear.css';
