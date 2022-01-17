@@ -20,6 +20,7 @@ header .container img{
   grid-template-columns: repeat(4, 1fr);
 }
 #cards .container .card{
+  background-color: rgb(119, 119, 119);
   position: relative;
   padding: 1rem;
   padding-bottom: .5rem;
