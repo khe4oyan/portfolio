@@ -2,6 +2,12 @@
   "update": 0,
   "cards":[
     {
+      "name": "C++ project's",
+      "img": "projIcon/cpp.png",
+      "link": "https://khe4oyans.github.io/CPP_portfolio/",
+      "git": "https://github.com/khe4oyans/CPP_portfolio"
+    },
+    {
       "name": "4 Player Game",
       "img": "projIcon/cat.png",
       "link": "https://khe4oyans.github.io/port_fplGame/",
