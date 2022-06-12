@@ -1,10 +1,44 @@
 const cardsContainer = document.querySelector('#cards .container');
 
-fetch('js/data.json')
-  .then(response => response.json())
-  .then(data => createCard(data));
+let data = {
+  "update": 0,
+  "cards":[
+    {
+      "name": "4 Player Game",
+      "img": "projIcon/cat.png",
+      "link": "https://khe4oyan.github.io/port_fplGame/",
+      "git": "https://github.com/khe4oyan/port_fplGame"
+    },
+    {
+      "name": "Creatives",
+      "img": "projIcon/cre.png",
+      "link": "https://khe4oyan.github.io/port_creative/",
+      "git": "https://github.com/khe4oyan/port_creative"
+    },
+    {
+      "name": "NewsGrid",
+      "img": "projIcon/gree.png",
+      "link": "https://khe4oyan.github.io/port_newsgrid/",
+      "git": "https://github.com/khe4oyan/port_newsgrid"
+    },
+    {
+      "name": "Fin Ancer",
+      "img": "projIcon/fin.png",
+      "link": "https://khe4oyan.github.io/port_financer/",
+      "git": "https://github.com/khe4oyan/port_financer"
+    },
+    {
+      "name": "Hotel",
+      "img": "projIcon/hot.png",
+      "link": "https://khe4oyan.github.io/port_hotel/",
+      "git": "https://github.com/khe4oyan/port_hotel"
+    }
+  ]
+};
 
-function createCard(data){
+createCard();
+
+function createCard(){
   for(let i = 0; i < data.cards.length; i++){
     const block = document.createElement('div');
     block.classList.add('card');

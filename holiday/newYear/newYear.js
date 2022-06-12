@@ -55,13 +55,11 @@ let lastTop = 0;
 window.addEventListener("scroll", function(scrol){
   if(lastTop > window.pageYOffset){
     // up
-    console.log();
     for(let i = 0; i < snows.length; i++){
       snows[i][0] += lastTop - window.pageYOffset;
     }
   }else{
     //  down
-    console.log();
     for(let i = 0; i < snows.length; i++){
       snows[i][0] += lastTop - window.pageYOffset;
     }
